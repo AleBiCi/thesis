@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"latex-workshop.synctex.afterBuild.enabled": true,
+		"latex-workshop.view.pdf.zoom": "page-fit"
+	}
+}

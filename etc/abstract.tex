@@ -3,15 +3,23 @@
 \addcontentsline{toc}{chapter}{Abstract}
 
 Battery-less computing is without a doubt one of the most interesting frontiers
-of innovation for the vast world of IoT devices, particularly in the context of wearables.
-This thesis work proposes a novel approach to a connected personal heart-rate
-monitor for fitness related applications, with particular emphasis on the energy
-harvesting technologies powering the system.\\ Since the device is to be worn during
-training sessions in a dynamic environment, energy sources were chosen in the
-form of solar and thermoelectric energy. Other sources comprised of the appropriate
-auxiliary circuitry were considered and evaluated, most of all kinetic energy. \\
-Great care was put into selecting readily-available components which were both easy
-to include in the implemented design and reasonably energy-efficient. The system
-ic controlled by a low-power and small form factor microcontroller board based
-on a Nordic Semiconductors chip, while the heart rate sensing capabilities are handled
-by a standalone Maxim Integrated module.
+of innovation for the vast world of the Internet of Things, particularly in the context
+of wearable devices. This thesis work proposes a novel approach to a connected
+personal heart-rate monitor for fitness related applications, with particular emphasis
+on the energy harvesting technologies powering the system.\\ The device is to be
+worn on the user's chest during training sessions, so it's paramount to properly
+choose the energy sources to exploit: heat transfer between the skin and the outside
+air can be harvested in the form of thermoelectric energy, employing a series of
+thermoelectric generators - also known as Peltier cells - positioned in contact
+with the skin, while a small form factor solar cell converts solar radiation into
+usable electric energy. These modules need to be connected to specially-designed
+supporting circuitry, consisting of mainly ultra-low or low voltage boost converters/voltage
+regulators, which enables us to make the most of the usually low inputs. Other sources
+were considered and evaluated, kinetic energy in particular, although not fully implemented.\\
+Great care was put into selecting readily-available and up-to-date components which
+were both easy to include in the design and reasonably energy-efficient. The
+system is controlled by a low-power and small form factor micro controller board
+based on a Nordic Semiconductors chip, while the heart rate sensing capabilities
+are handled by a standalone Maxim Integrated module.\\ The system communicates with
+connected devices via BLE (Bluetooth Low Energy), which greatly reduces power
+consumption during transmission of the heart rate data.
